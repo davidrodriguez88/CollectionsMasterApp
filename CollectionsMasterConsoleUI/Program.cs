@@ -41,14 +41,10 @@ namespace CollectionsMasterConsoleUI
             //Try for 2 different ways
             //*  1) First way, using a custom method => Hint: Array._____();
             Array.Reverse(numbers);
-            Console.WriteLine("All Numbers Reversed (Array.Reverse)");
+            Console.WriteLine("All Numbers Reversed");
             NumberPrinter(numbers);
             Console.WriteLine("--------------------");
-            
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                numbers[i] = i + 1;
-            }
+         
             
                //2) Second way, Create a custom method (scroll to bottom of page to find ⬇⬇⬇)
             ReverseArray(numbers);
